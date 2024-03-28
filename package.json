@@ -1,0 +1,14 @@
+{
+  "name": "ecl-coding-challenge-2023",
+  "module": "cli.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chance": "^1.1.11"
+  }
+}
