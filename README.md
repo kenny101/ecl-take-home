@@ -20,7 +20,7 @@ bun run cli.ts <pathname> <N highest scores>
 
 ## Running tests (requires Bun installed)
 
-See `/tests` folder for comprehensive unit and end-to-end testing. All tests can be run with the command:
+Tests include multiple input and output data files, proper exit codes and error logs. See `/tests` folder for comprehensive unit and end-to-end testing. All tests can be run with the command:
 
 ```bash
 bun test
