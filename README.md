@@ -1,6 +1,6 @@
 # ECL-Take-Home
 
-**Note:** This take-home uses the [Bun.sh](Bun.sh) runtime rather than NodeJS. Some benefits of this include:
+**Note:** This take-home uses the [Bun.sh](https://bun.sh) runtime rather than NodeJS. Some benefits of this include:
 
 - Directly running TypeScript without transpiler step
 - Easier end-to-end command line testing by running bash commands in TypeScript
