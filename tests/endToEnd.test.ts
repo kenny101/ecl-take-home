@@ -1,14 +1,6 @@
 import { expect, test, describe } from "bun:test";
 import { $, type ShellOutput } from "bun";
 
-// Function to run the CLI command and return the shell output (Only works on MacOS / Linux)
-// async function runCli(args: string): Promise<ShellOutput> {
-//   const command = `bun run cli.ts ${args}`
-//   console.log("ran:", command)
-//   const result: ShellOutput = await $`${command}`;
-//   return result;
-// }
-
 describe("CLI Tests", () => {
   test("Should display error message for invalid file path and exit code 1", async () => {
     const output: ShellOutput = await $`bun run cli.ts invalid/path 3`;
