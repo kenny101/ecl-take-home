@@ -14,7 +14,7 @@
 bun i # installs the node dependencies
 bun run cli.ts <pathname> <N highest scores>
 
-# Running with compiled executable:
+# Or you can run this with the compiled executable:
 ./highest ./data/basic.data 2
 ```
 
